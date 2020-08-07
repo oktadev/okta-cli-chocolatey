@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>okta</id>
+    <version>0.3.1</version>
+    <owners>bdemers</owners>
+    <title>okta (Install)</title>
+    <authors>bdemers</authors>
+    <projectUrl>https://github.com/oktadeveloper/okta-cli</projectUrl>
+    <iconUrl>https://aws1.discourse-cdn.com/standard14/uploads/oktadev/original/1X/0c6402653dfb70edc661d4976a43a46f33e5e919.png</iconUrl>
+    <copyright>2020-Present Okta, Inc.</copyright>
+    <licenseUrl>http://www.apache.org/licenses/</licenseUrl>
+    <projectSourceUrl>https://github.com/oktadeveloper/okta-cli</projectSourceUrl>
+    <!-- man pages available soon -->
+    <docsUrl>https://github.com/oktadeveloper/okta-cli/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/oktadeveloper/okta-cli/issues</bugTrackerUrl>
+    <tags>okta developer cli oauth oauth2</tags>
+    <summary>The Okta CLI is the easiest way to get started with Okta</summary>
+    <description>
+    The Okta CLI is the easiest way to get started with Okta
+
+    For more information see the project page: https://github.com/oktadeveloper/okta-cli
+    </description>
+    <releaseNotes>See release notes: https://github.com/oktadeveloper/okta-cli/releases</releaseNotes>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>

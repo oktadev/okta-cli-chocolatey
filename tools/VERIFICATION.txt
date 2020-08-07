@@ -1,0 +1,5 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+The Okta Developers team maintains both this package and project see: https://github.com/oktadeveloper/okta-cli/graphs/contributors
