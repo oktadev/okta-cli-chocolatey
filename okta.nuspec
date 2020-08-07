@@ -22,6 +22,9 @@
     For more information see the project page: https://github.com/oktadeveloper/okta-cli
     </description>
     <releaseNotes>See release notes: https://github.com/oktadeveloper/okta-cli/releases</releaseNotes>
+    <dependencies>
+      <dependency id="vcredist140" />
+    </dependencies>
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
