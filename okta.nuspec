@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>okta</id>
-    <version>0.6.0</version>
+    <version>0.7.1</version>
     <owners>bdemers</owners>
     <title>okta (Install)</title>
     <authors>bdemers</authors>
