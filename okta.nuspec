@@ -2,26 +2,27 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>okta</id>
-    <version>0.7.1</version>
+    <version>0.8.0</version>
     <owners>bdemers</owners>
     <title>okta (Install)</title>
     <authors>bdemers</authors>
-    <projectUrl>https://github.com/oktadeveloper/okta-cli</projectUrl>
-    <iconUrl>https://aws1.discourse-cdn.com/standard14/uploads/oktadev/original/1X/0c6402653dfb70edc661d4976a43a46f33e5e919.png</iconUrl>
+    <projectUrl>https://github.com/okta/okta-cli</projectUrl>
+    <iconUrl>https://github.com/okta/okta-cli/raw/master/images/okta-dev.png</iconUrl>
     <copyright>2020-Present Okta, Inc.</copyright>
     <licenseUrl>http://www.apache.org/licenses/</licenseUrl>
-    <projectSourceUrl>https://github.com/oktadeveloper/okta-cli</projectSourceUrl>
+    <projectSourceUrl>https://github.com/okta/okta-cli</projectSourceUrl>
+    <packageSourceUrl>https://github.com/oktadeveloper/okta-cli-chocolatey</packageSourceUrl>
     <!-- man pages available soon -->
-    <docsUrl>https://github.com/oktadeveloper/okta-cli/blob/master/README.md</docsUrl>
-    <bugTrackerUrl>https://github.com/oktadeveloper/okta-cli/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/okta/okta-cli/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/okta/okta-cli/issues</bugTrackerUrl>
     <tags>okta developer cli oauth oauth2</tags>
     <summary>The Okta CLI is the easiest way to get started with Okta</summary>
     <description>
     The Okta CLI is the easiest way to get started with Okta
 
-    For more information see the project page: https://github.com/oktadeveloper/okta-cli
+    For more information see the project page: https://github.com/okta/okta-cli
     </description>
-    <releaseNotes>See release notes: https://github.com/oktadeveloper/okta-cli/releases</releaseNotes>
+    <releaseNotes>See release notes: https://github.com/okta/okta-cli/releases</releaseNotes>
     <dependencies>
       <dependency id="vcredist140" />
     </dependencies>
